@@ -1,0 +1,169 @@
+[2025-05-27T17:39:37.320+0530] {processor.py:161} INFO - Started process (PID=22882) to work on /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.321+0530] {processor.py:830} INFO - Processing file /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py for tasks to queue
+[2025-05-27T17:39:37.322+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.322+0530] {dagbag.py:538} INFO - Filling up the DagBag from /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.325+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.323+0530] {dagbag.py:348} ERROR - Failed to import: /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+Traceback (most recent call last):
+  File "/Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_venv_39/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py", line 39
+    print(f"account {sf_config["account"]}")
+                                ^
+SyntaxError: f-string: unmatched '['[2025-05-27T17:39:37.320+0530] {processor.py:161} INFO - Started process (PID=22882) to work on /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.321+0530] {processor.py:830} INFO - Processing file /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py for tasks to queue
+[2025-05-27T17:39:37.322+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.322+0530] {dagbag.py:538} INFO - Filling up the DagBag from /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.325+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.323+0530] {dagbag.py:348} ERROR - Failed to import: /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+Traceback (most recent call last):
+  File "/Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_venv_39/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py", line 39
+    print(f"account {sf_config["account"]}")
+                                ^
+SyntaxError: f-string: unmatched '['[2025-05-27T17:39:37.320+0530] {processor.py:161} INFO - Started process (PID=22882) to work on /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.321+0530] {processor.py:830} INFO - Processing file /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py for tasks to queue
+[2025-05-27T17:39:37.322+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.322+0530] {dagbag.py:538} INFO - Filling up the DagBag from /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.325+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.323+0530] {dagbag.py:348} ERROR - Failed to import: /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+Traceback (most recent call last):
+  File "/Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_venv_39/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py", line 39
+    print(f"account {sf_config["account"]}")
+                                ^
+SyntaxError: f-string: unmatched '['[2025-05-27T17:39:37.320+0530] {processor.py:161} INFO - Started process (PID=22882) to work on /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.321+0530] {processor.py:830} INFO - Processing file /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py for tasks to queue
+[2025-05-27T17:39:37.322+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.322+0530] {dagbag.py:538} INFO - Filling up the DagBag from /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.325+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.323+0530] {dagbag.py:348} ERROR - Failed to import: /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+Traceback (most recent call last):
+  File "/Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_venv_39/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py", line 39
+    print(f"account {sf_config["account"]}")
+                                ^
+SyntaxError: f-string: unmatched '['[2025-05-27T17:39:37.320+0530] {processor.py:161} INFO - Started process (PID=22882) to work on /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.321+0530] {processor.py:830} INFO - Processing file /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py for tasks to queue
+[2025-05-27T17:39:37.322+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.322+0530] {dagbag.py:538} INFO - Filling up the DagBag from /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.325+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.323+0530] {dagbag.py:348} ERROR - Failed to import: /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+Traceback (most recent call last):
+  File "/Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_venv_39/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py", line 39
+    print(f"account {sf_config["account"]}")
+                                ^
+SyntaxError: f-string: unmatched '['[2025-05-27T17:39:37.320+0530] {processor.py:161} INFO - Started process (PID=22882) to work on /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.321+0530] {processor.py:830} INFO - Processing file /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py for tasks to queue
+[2025-05-27T17:39:37.322+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.322+0530] {dagbag.py:538} INFO - Filling up the DagBag from /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.325+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.323+0530] {dagbag.py:348} ERROR - Failed to import: /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+Traceback (most recent call last):
+  File "/Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_venv_39/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py", line 39
+    print(f"account {sf_config["account"]}")
+                                ^
+SyntaxError: f-string: unmatched '['[2025-05-27T17:39:37.320+0530] {processor.py:161} INFO - Started process (PID=22882) to work on /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.321+0530] {processor.py:830} INFO - Processing file /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py for tasks to queue
+[2025-05-27T17:39:37.322+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.322+0530] {dagbag.py:538} INFO - Filling up the DagBag from /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.325+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.323+0530] {dagbag.py:348} ERROR - Failed to import: /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+Traceback (most recent call last):
+  File "/Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_venv_39/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py", line 39
+    print(f"account {sf_config["account"]}")
+                                ^
+SyntaxError: f-string: unmatched '['[2025-05-27T17:39:37.320+0530] {processor.py:161} INFO - Started process (PID=22882) to work on /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.321+0530] {processor.py:830} INFO - Processing file /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py for tasks to queue
+[2025-05-27T17:39:37.322+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.322+0530] {dagbag.py:538} INFO - Filling up the DagBag from /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.325+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.323+0530] {dagbag.py:348} ERROR - Failed to import: /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+Traceback (most recent call last):
+  File "/Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_venv_39/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py", line 39
+    print(f"account {sf_config["account"]}")
+                                ^
+SyntaxError: f-string: unmatched '['[2025-05-27T17:39:37.320+0530] {processor.py:161} INFO - Started process (PID=22882) to work on /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.321+0530] {processor.py:830} INFO - Processing file /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py for tasks to queue
+[2025-05-27T17:39:37.322+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.322+0530] {dagbag.py:538} INFO - Filling up the DagBag from /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.325+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.323+0530] {dagbag.py:348} ERROR - Failed to import: /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+Traceback (most recent call last):
+  File "/Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_venv_39/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py", line 39
+    print(f"account {sf_config["account"]}")
+                                ^
+SyntaxError: f-string: unmatched '['[2025-05-27T17:39:37.320+0530] {processor.py:161} INFO - Started process (PID=22882) to work on /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.321+0530] {processor.py:830} INFO - Processing file /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py for tasks to queue
+[2025-05-27T17:39:37.322+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.322+0530] {dagbag.py:538} INFO - Filling up the DagBag from /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.325+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.323+0530] {dagbag.py:348} ERROR - Failed to import: /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+Traceback (most recent call last):
+  File "/Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_venv_39/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py", line 39
+    print(f"account {sf_config["account"]}")
+                                ^
+SyntaxError: f-string: unmatched '['[2025-05-27T17:39:37.320+0530] {processor.py:161} INFO - Started process (PID=22882) to work on /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.321+0530] {processor.py:830} INFO - Processing file /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py for tasks to queue
+[2025-05-27T17:39:37.322+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.322+0530] {dagbag.py:538} INFO - Filling up the DagBag from /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.325+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.323+0530] {dagbag.py:348} ERROR - Failed to import: /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+Traceback (most recent call last):
+  File "/Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_venv_39/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py", line 39
+    print(f"account {sf_config["account"]}")
+                                ^
+SyntaxError: f-string: unmatched '['[2025-05-27T17:39:37.320+0530] {processor.py:161} INFO - Started process (PID=22882) to work on /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.321+0530] {processor.py:830} INFO - Processing file /Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py for tasks to queue
+[2025-05-27T17:39:37.322+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.322+0530] {dagbag.py:538} INFO - Filling up the DagBag from /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+[2025-05-27T17:39:37.325+0530] {logging_mixin.py:188} INFO - [2025-05-27T17:39:37.323+0530] {dagbag.py:348} ERROR - Failed to import: /Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py
+Traceback (most recent call last):
+  File "/Users/zafarimam/Documents/E-Commerce Order Pipeline/airflow_venv_39/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/Documents/E-Commerce Order Pipeline/airflow_project/dags/order_monitoring_dag.py", line 39
+    print(f"account {sf_config["account"]}")
+                                ^
+SyntaxError: f-string: unmatched '['

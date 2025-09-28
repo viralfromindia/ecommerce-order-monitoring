@@ -1,0 +1,8 @@
+snowflake:
+  user: VIRALPATE
+  password: XXXXXXXXXXXXXX
+  account: XXXXXXXXXXXXXX
+  warehouse: COMPUTE_WH
+  database: ecommerce_db
+  schema: analytics
+  role: ACCOUNTADMIN
